@@ -16,7 +16,7 @@ print("You see someone in the distance and go in for a closer look.")
 print()
 
 luffy = 100
-energy=200
+energy=150
 crocodile=100
 
 #Enounter 1
@@ -59,7 +59,7 @@ if rng== 1:
             print(f"Your Energy= {energy}")
 
         else:
-            print("Invalid Input!")   
+            print("Insufficient Energy!")   
 
         if crocodile >=0:    
             damage= random.randint(30,50)
@@ -116,7 +116,7 @@ if rng==2:
                 print(f"Your Energy= {energy}")
 
             else:
-                print("Invalid Input!")   
+                print("Insufficient Energy!")   
 
             if whitebeard >=0:    
                 damage= random.randint(30,50)
